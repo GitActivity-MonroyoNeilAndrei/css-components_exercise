@@ -14,6 +14,27 @@ p {
   padding: 0;
 }
 
+h1 {
+  font-size: 3rem;
+  color: #c30052;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
 .container {
   display: grid;
   min-height: 90vh;
@@ -24,12 +45,27 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 10px;
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 0 10px;
+  padding: 20px 15px;
+}
+
+.card-horizontal--flame {
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.card-horizontal--ice {
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.card-horizontal--wind {
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 .box {
@@ -37,6 +73,18 @@ p {
   min-height: 20rem;
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.box--flame {
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.box--ice {
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.box--wind {
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 hr {
@@ -49,6 +97,22 @@ button {
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  color: #fff;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+
+.button--flame {
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.button--ice {
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.button--wind {
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 .wrapper {
